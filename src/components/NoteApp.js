@@ -111,7 +111,6 @@ class NoteApp extends Component {
   render() {
     const { showModal, archives, search } = this.state;
     let { notes } = this.state;
-    
     if (search.length !== 0) {
       notes = search;
     }
